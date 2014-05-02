@@ -152,12 +152,16 @@
 <text x="26.924" y="18.288" size="0.6096" layer="26" rot="MR180">RST</text>
 <text x="28.702" y="19.812" size="0.6096" layer="26" rot="MR180">SCK</text>
 <text x="30.734" y="22.86" size="0.6096" layer="26" rot="MR180">MISO</text>
-<text x="34.036" y="10.922" size="0.8128" layer="25" font="vector" rot="MR0">publiclab.org/wiki/mini-meter</text>
+<text x="34.036" y="10.922" size="0.8128" layer="26" font="vector" rot="MR0">publiclab.org/wiki/mini-meter</text>
 <hole x="13.208" y="30.226" drill="1.1"/>
 <hole x="15.748" y="30.226" drill="1.1"/>
 <hole x="18.288" y="30.226" drill="1.1"/>
-<text x="13.716" y="13.97" size="0.6096" layer="26" rot="MR0">VIN</text>
-<text x="10.922" y="13.97" size="0.6096" layer="26" rot="MR0">GND</text>
+<text x="13.716" y="13.208" size="0.6096" layer="26" rot="MR0">VIN</text>
+<text x="10.922" y="13.208" size="0.6096" layer="26" rot="MR0">GND</text>
+<text x="9.652" y="25.908" size="0.6096" layer="25">+5V</text>
+<text x="15.24" y="25.654" size="0.6096" layer="25" rot="R135">GND</text>
+<text x="15.494" y="25.654" size="0.6096" layer="25">P1</text>
+<text x="17.78" y="25.654" size="0.6096" layer="25">P2</text>
 </plain>
 <libraries>
 <library name="adafruit">
@@ -902,7 +906,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="14.748" y="22.484" size="1.016" layer="27"/>
 </element>
 <element name="IC2" library="adafruit" package="SOT23-5L" value="LP2985-3.3v" x="10.922" y="15.494" smashed="yes" rot="R180">
-<attribute name="NAME" x="9.271" y="17.653" size="1.27" layer="26" rot="MR180"/>
+<attribute name="NAME" x="9.271" y="17.653" size="0.8128" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="12.827" y="18.923" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="D1" library="adafruit" package="SOD-123" value="SCHOTTKY" x="13.97" y="16.002" smashed="yes" rot="R90">
@@ -932,7 +936,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="9.144" y="8.763" size="1.27" layer="27"/>
 </element>
 <element name="IC3" library="adafruit" package="SOT23-5L" value="LP2985-5v" x="16.764" y="14.986" smashed="yes" rot="R180">
-<attribute name="NAME" x="15.113" y="16.891" size="1.27" layer="26" rot="MR180"/>
+<attribute name="NAME" x="15.113" y="16.891" size="0.8128" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="18.669" y="18.415" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="JP5" library="SparkFun-Connectors" package="1X08_LOCK" value="" x="37.846" y="29.718" smashed="yes" rot="R270">
